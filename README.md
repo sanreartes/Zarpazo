@@ -1,1 +1,3 @@
 # Zarpazo
+
+Videojuego para taller.
