@@ -25,11 +25,23 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>Pelotas[5]=0;
+            <string>randomize();
+
+pelotas[7]=0;
+pelotasActual = 3;
+
+finTurno = true;
+
 posX=room_height/6;
 posY=300;
-for (i=1; i &lt; 6; i+=1){
-instance_create(i*posX, posY, circulo_obj);
+
+if(finTurno = true) {
+for (i=0; i &lt; pelotasActual; i+=1){
+    pelotas[i] = instance_create((i +1)*posX, posY, circulo_obj);
+    pelotas[i].image_index = irandom_range(-0.51, 3.49);
+}
+
+finTurno = false;
 }
 </string>
           </argument>

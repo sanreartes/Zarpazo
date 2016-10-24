@@ -6,11 +6,17 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\ukopi_spr</sprite>
-    <sprite>sprites\empezarjuego_spr</sprite>
-    <sprite>sprites\barra_pelea_spr</sprite>
-    <sprite>sprites\circulo_spr</sprite>
-    <sprite>sprites\mouse_pointer_spr</sprite>
+    <sprites name="battleSystem">
+      <sprite>sprites\circulo_spr</sprite>
+      <sprite>sprites\barra_pelea_spr</sprite>
+    </sprites>
+    <sprites name="enemy">
+      <sprite>sprites\ukopi_spr</sprite>
+    </sprites>
+    <sprites name="userInterface">
+      <sprite>sprites\empezarjuego_spr</sprite>
+      <sprite>sprites\mouse_pointer_spr</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\callejon_backg</background>
