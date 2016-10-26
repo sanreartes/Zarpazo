@@ -10,26 +10,28 @@
       <sprite>sprites\circulo_spr</sprite>
       <sprite>sprites\barra_pelea_spr</sprite>
     </sprites>
-    <sprites name="enemy">
+    <sprites name="enemies">
       <sprite>sprites\ukopi_spr</sprite>
     </sprites>
     <sprites name="userInterface">
-      <sprite>sprites\empezarjuego_spr</sprite>
       <sprite>sprites\mouse_pointer_spr</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\callejon_backg</background>
+    <background>background\titlescreen_backg2</background>
     <background>background\titlescreen_backg</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
+  <fonts name="fonts">
+    <font>fonts\source_sans</font>
+  </fonts>
   <objects name="objects">
     <object>objects\ukopi_obj</object>
     <object>objects\player_obj</object>
     <objects name="objetos_iniciales">
+      <object>objects\texto_obj</object>
       <object>objects\mouse_obj</object>
-      <object>objects\empezarjuego_obj</object>
     </objects>
     <objects name="battle_system">
       <object>objects\circulo_obj</object>

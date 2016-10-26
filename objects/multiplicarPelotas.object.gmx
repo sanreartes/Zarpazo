@@ -25,16 +25,19 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>randomize();
+            <string>// Generar los números aleatoriamente cada vez que el programa se ejecuta
+randomize();
 
-pelotas[7]=0;
+// Declaración de arrays / variables
+pelotas[6]=0;
 pelotasActual = 3;
 
 finTurno = true;
 
-posX=room_height/6;
+posX=room_height/pelotasActual;
 posY=300;
 
+// Código que se ejecuta cuando finaliza el turno(la barra sale de la pantalla)
 if(finTurno = true) {
 for (i=0; i &lt; pelotasActual; i+=1){
     pelotas[i] = instance_create((i +1)*posX, posY, circulo_obj);
